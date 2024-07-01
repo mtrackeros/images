@@ -4,7 +4,7 @@
 
 **Source release/branch:** [main](https://github.com/devcontainers/images/tree/main/src/anaconda)
 
-**Digest:** sha256:9ff0d07597c74a045b2c485e999b9826fec6555f24306a06ac989e2ff82a1221
+**Digest:** sha256:a14ad0279cc907036b695987cece896cef42d31ca1415f7693497ecb7a760749
 
 **Tags:**
 ```
@@ -31,34 +31,34 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | fd01fd66ce27c669e5ffaea94460a37423d1e134 | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8c5f64cc2f0e75399a1e906e39713ed25b65ece1 | /home/vscode/.oh-my-zsh |
 
 **Pip / pipx installed tools and packages**
 
 | Tool / package | Version |
 |----------------|---------|
 | joblib | 1.3.1 |
-| cookiecutter | 2.2.3 |
+| cookiecutter | 2.5.0 |
 | cryptography | 42.0.4 |
 | mistune | 3.0.1 |
-| numpy | 1.25.2 |
+| numpy | 1.26.4 |
 | certifi | 2024.2.2 |
 | setuptools | 68.2.2 |
 | future | 0.18.3 |
 | wheel | 0.41.2 |
-| nbconvert | 7.7.3 |
-| Werkzeug | 2.3.6 |
+| nbconvert | 7.10.0 |
+| Werkzeug | 3.0.3 |
 | requests | 2.31.0 |
 | tornado | 6.3.3 |
 | transformers | 4.36.0 |
-| jupyter_server | 2.7.2 |
+| jupyter_server | 2.10.0 |
 
 **Other tools and utilities**
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.44.0 | 
-| [conda](https://github.com/conda/conda) | 24.3.0 | /opt/conda |
+| [git](https://github.com/git/git) | 2.45.0 | 
+| [conda](https://github.com/conda/conda) | 24.5.0 | /opt/conda |
 
 **Additional linux tools and packages**
 
@@ -74,15 +74,15 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 | htop | 3.0.5-7 |
 | iproute2 | 5.10.0-4 |
 | jq | 1.6-2.1 |
-| less | 551-2 |
-| libc6 | 2.31-13+deb11u8 |
+| less | 551-2+deb11u2 |
+| libc6 | 2.31-13+deb11u10 |
 | libgssapi-krb5-2 | 1.18.3-6+deb11u4 |
 | libicu67 | 67.1-7 |
 | libkrb5-3 | 1.18.3-6+deb11u4 |
 | liblttng-ust0 | 2.12.1-1 |
 | libssl1.1 | 1.1.1w-0+deb11u1 |
 | libstdc++6 | 10.2.1-6 |
-| locales | 2.31-13+deb11u8 |
+| locales | 2.31-13+deb11u10 |
 | lsb-release | 11.1.0 |
 | lsof | 4.93.2+dfsg-1.1 |
 | man-db | 2.9.4-2 |
@@ -100,7 +100,7 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 | unzip | 6.0-26+deb11u1 |
 | vim-tiny | 2:8.2.2434-3+deb11u1 |
 | wget | 1.21-1+deb11u1 |
-| yarn | 1.22.19-1 |
+| yarn | 1.22.22-1 |
 | zip | 3.0-12 |
 | zlib1g | 1:1.2.11.dfsg-2+deb11u2 |
 | zsh | 5.8-6+deb11u1 |
